@@ -8,7 +8,8 @@ import { createStore } from 'redux';
 import {home} from "./reducers/home";
 
 const defaultState = {
-
+    masterSwitchOn: false,
+    kitchenLightOn: true 
 };
 
 const store = createStore(home, defaultState);
